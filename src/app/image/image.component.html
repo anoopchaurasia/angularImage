@@ -1,0 +1,14 @@
+<angular-file-uploader
+      [config]="afuConfig"
+      (ApiResponse)="DocUpload($event)">
+</angular-file-uploader>
+
+<image-cropper
+    [imageBase64]="imageBase64"
+    [resizeToWidth]="200"
+    format="png"
+    (imageCroppedBase64)="imageCropped($event)"
+    [cropper]="{ x1: 0, y1: 0, x2: 200, y2: 200}"
+></image-cropper>
+
+<img [src]="croppedImage" />
