@@ -9,7 +9,8 @@ export class ImageComponent implements OnInit {
 	afuConfig = {
 	    uploadAPI: {
 	      url:"/uploads"
-	    }
+	    },
+	    formatsAllowed: ".jpg,.png,.gif,.jpeg"
 	};
   	constructor() { }
 	croppedImage: any = '';
