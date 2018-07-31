@@ -11,4 +11,4 @@ Steps to run project
 7. Open 'http://localhost:3000' in broswer
 8. Click on `select image` and select an image
 9. Click on upload
-10. Wait for image to load on croper.
+10. Wait for image to load on cropper.
